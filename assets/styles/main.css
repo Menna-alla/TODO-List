@@ -7,8 +7,54 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 :root {
-  --main-color:#A1EEBD;
-  --btn-color:#7BD3EA;
-  --text-color:black;
-  
+  --bg-color: #a1eebd;
+  --btn-color: #7bd3ea;
+  --text-color: black;
+}
+.dark-theme {
+  --text-color: white;
+  --btn-color: #3b1c32;
+  --bg-color: #1a1a1d;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  padding: 0 15px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+header {
+  padding: 20px 0;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+header  a {
+   font-size: 20px;
+   font-weight: bold;
+   color: var(--text-color);
+}
+header img {
+  width: 30px;
 }
