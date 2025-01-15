@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+  --main-color:#A1EEBD;
+  --btn-color:#7BD3EA;
+  --text-color:black;
+  
+}
